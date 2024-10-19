@@ -1,0 +1,77 @@
+@media (max-width: 1200px) {
+    .heading h6 {
+        margin-right: 300px;
+        /* Adjust margin for large screens */
+    }
+
+    .heading- h6 {
+        border: 1px solid var(--secondary-color);
+        padding: 10px;
+        margin-left: 300px;
+    }
+
+    .about-Content h6 {
+        border: 1px solid var(--secondary-color);
+        padding: 10px;
+        margin-right: 300px;
+    }
+}
+
+@media (max-width: 992px) {
+    .heading h6 {
+        margin-right: 100px;
+        /* Adjust margin for medium screens */
+    }
+
+    .heading- h6 {
+        border: 1px solid var(--secondary-color);
+        padding: 10px;
+        margin-left: 100px;
+    }
+
+    .about-Content h6 {
+        border: 1px solid var(--secondary-color);
+        padding: 10px;
+        margin-right: 100px;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading h6 {
+        margin-right: 50px;
+        /* Adjust margin for small screens */
+    }
+
+    .heading- h6 {
+        border: 1px solid var(--secondary-color);
+        padding: 10px;
+        margin-left: 50px;
+    }
+
+    .about-Content h6 {
+        border: 1px solid var(--secondary-color);
+        padding: 10px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 576px) {
+    .heading h6 {
+        margin-right: 20px;
+        /* Adjust margin for extra small screens */
+        font-size: 1rem;
+        /* Optionally reduce font size for smaller screens */
+    }
+
+    .heading- h6 {
+        border: 1px solid var(--secondary-color);
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    .about-Content h6 {
+        border: 1px solid var(--secondary-color);
+        padding: 10px;
+        margin-right: 20px;
+    }
+}
